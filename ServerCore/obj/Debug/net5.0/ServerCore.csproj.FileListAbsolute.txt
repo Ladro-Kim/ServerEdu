@@ -1,0 +1,16 @@
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ServerCore.exe
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ServerCore.deps.json
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ServerCore.runtimeconfig.json
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ServerCore.runtimeconfig.dev.json
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ServerCore.dll
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ref\ServerCore.dll
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\bin\Debug\net5.0\ServerCore.pdb
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.csproj.AssemblyReference.cache
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.AssemblyInfoInputs.cache
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.AssemblyInfo.cs
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.dll
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ref\ServerCore.dll
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.pdb
+C:\Users\Ladro\Desktop\C#Edu\Server\ServerEdu\ServerCore\obj\Debug\net5.0\ServerCore.genruntimeconfig.cache
