@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ladro\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ladro\\Desktop\\C#Edu\\Server\\ServerEdu\\DummyClient\\DummyClient.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\UnityProjs\\Server\\ServerEdu\\DummyClient\\DummyClient.csproj",
       "projectName": "DummyClient",
-      "projectPath": "C:\\Users\\Ladro\\Desktop\\C#Edu\\Server\\ServerEdu\\DummyClient\\DummyClient.csproj",
-      "packagesPath": "C:\\Users\\Ladro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ladro\\Desktop\\C#Edu\\Server\\ServerEdu\\DummyClient\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\UnityProjs\\Server\\ServerEdu\\DummyClient\\DummyClient.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\UnityProjs\\Server\\ServerEdu\\DummyClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ladro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
