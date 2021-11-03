@@ -9,6 +9,29 @@ namespace ServerCore
 {
     class Program
     {
+        static Listener listener = new Listener();
+
+        static void OnAcceptHandler(Socket clientSocket)
+        {
+            try
+            {
+
+                // 보낸다
+                byte[] sendBuff = Encoding.UTF8.GetBytes("Welcome to Server!");
+
+                Session session = new Session();
+                session.Init(clientSocket);
+                session.Send(sendBuff);
+                Thread.Sleep(1000);
+                session.Disconnect();
+
+            } catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+        }
+
         static void Main(string[] args)
         {
             // DNS (Domain Name System)
@@ -20,48 +43,16 @@ namespace ServerCore
             IPAddress ipAddr = ipHost.AddressList[0];
             IPEndPoint endPoint = new IPEndPoint(ipAddr, 7777);
 
+            listener.Init(endPoint, OnAcceptHandler);
+
+            while (true)
+            {
+
+            }
+
             // IPEndPoint endPoint2 = new IPEndPoint(IPAddress.Parse("192.168.0.1"), 8888);
             // Socket listener = new Socket(endPoint2.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
-
-
-            // 문지기 생성
-            Socket listenSocket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-            try
-            {
-                // 문지기 교육
-                listenSocket.Bind(endPoint);
-
-                // 영업시작
-                // backlog : 최대 대기수(10)
-                listenSocket.Listen(10);
-
-
-                while (true)
-                {
-                    Console.WriteLine("Listening...");
-
-                    // 손님 입장
-                    Socket clientSocket = listenSocket.Accept();
-
-                    // 받는다
-                    byte[] recvBuff = new byte[1024];
-                    int recvBytes = clientSocket.Receive(recvBuff);
-                    String recvString = Encoding.UTF8.GetString(recvBuff, 0, recvBytes);  // recvBuff 를 String 으로 변환, 읽기 시작위치, 문자수량
-                    Console.WriteLine($"From client : {recvString}");
-
-                    // 보낸다
-                    byte[] sendBuff = Encoding.UTF8.GetBytes("Welcome to Server!");
-                    clientSocket.Send(sendBuff);
-
-                    // 쫒아낸다.
-                    clientSocket.Shutdown(SocketShutdown.Both); // 송수신 종료예고
-                    clientSocket.Close(); // 소켓연결 종료
-                }
-            } catch(Exception e)
-            {
-                Console.WriteLine(e);
-            }
         }
     }
 }
